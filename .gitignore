@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.pyc
+
+outputs/
+work/
+*.mp4
+*.mov
+*.wav
+*.aiff
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.webp
