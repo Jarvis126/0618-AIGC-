@@ -1,4 +1,4 @@
-# 0618-AIGC 全自动视频生成脚本包
+# 0618-AIGC 全自动视频生成脚本包及Skills
 
 本仓库整理的是《软件谷的隐藏接口》全自动 AIGC 视频生成方案：用火山方舟 Ark API 调用 Seedream 生成关键帧图片，再调用 Seedance 生成分镜视频，最后用 ffmpeg 自动拼接、叠化转场、抽帧质检。
 
@@ -184,3 +184,6 @@ outputs/软件谷的隐藏接口_分镜视频/
 - 本仓库不包含 API Key。
 - `.env`、输出视频、图片、音频和缓存默认被 `.gitignore` 忽略。
 - 不建议提交 `outputs/`，因为会包含大体积媒体文件和可能过期的生成 URL。
+
+## 10. aigc-storyboard-video-skill
+
